@@ -1,10 +1,7 @@
-<nav id="menu">        
-    <div class="element_menu">
-        <h3>Titre menu</h3>
-        <ul>
-            <li><a href="page1.html">Lien</a></li>
-            <li><a href="page2.html">Lien</a></li>
-            <li><a href="page3.html">Lien</a></li>
-        </ul>
-    </div>    
-</nav>
+<!-- footer.php -->
+<footer class="bg-light text-center text-lg-start mt-auto">
+  <div class="text-center p-3">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://openclassrooms.com/">OpenClassrooms</a>
+  </div>
+</footer>
