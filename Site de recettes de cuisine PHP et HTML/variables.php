@@ -1,5 +1,4 @@
 <?php
-// variables.php
 
 $users = [
     [
