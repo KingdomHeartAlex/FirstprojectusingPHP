@@ -1,0 +1,2 @@
+nom = Dupont;
+prenom = Jean;
