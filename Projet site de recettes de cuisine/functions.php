@@ -42,4 +42,3 @@ function get_recipes(array $recipes, int $limit) : array
     }
 
     return $valid_recipes;
-}

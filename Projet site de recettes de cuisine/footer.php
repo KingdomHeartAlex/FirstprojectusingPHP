@@ -4,3 +4,4 @@
     <a class="text-dark" href="https://openclassrooms.com/">OpenClassrooms</a>
   </div>
 </footer>
+
