@@ -1,5 +1,14 @@
 <?php
 
+<?php
+// Souvent on identifie cet objet par la variable $conn ou $db
+$mysqlConnection = new PDO(
+    'mysql:host=localhost;dbname=my_recipes;charset=utf8',
+    'root',
+    'root'
+);
+?>
+
 function display_recipe(array $recipe) : string
 {
     $recipe_content = '';
@@ -43,11 +52,4 @@ function get_recipes(array $recipes, int $limit) : array
 
     return $valid_recipes;
 
-    <?php
-// Souvent on identifie cet objet par la variable $conn ou $db
-$mysqlConnection = new PDO(
-    'mysql:host=localhost;dbname=my_recipes;charset=utf8',
-    'root',
-    'root'
-);
-?>
+ 
