@@ -1,8 +1,10 @@
 <?php
+
 try
 {
 	// On se connecte à MySQL
-	$mysqlClient = new PDO('mysql:host=localhost;dbname=my_recipes;charset=utf8', 'root', 'root');
+	$mysqlClient = new PDO('mysql:host=localhost:3307;dbname=we_love_food;charset=utf8', 'root', 'root');
+  
 }
 catch(Exception $e)
 {
