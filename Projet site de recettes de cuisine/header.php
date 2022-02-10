@@ -3,6 +3,15 @@
     include_once('functions.php');
 ?>
 
+<?php
+// Souvent on identifie cet objet par la variable $conn ou $db
+$mysqlConnection = new PDO(
+    'mysql:host=localhost;dbname=my_recipes;charset=utf8',
+    'root',
+    'root'
+);
+?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="home.php">Site de Recettes</a>
