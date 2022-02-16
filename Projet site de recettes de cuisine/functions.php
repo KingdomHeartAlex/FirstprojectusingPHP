@@ -1,7 +1,7 @@
 <?php
 // Souvent on identifie cet objet par la variable $conn ou $db
 $mysqlConnection = new PDO(
-    'mysql:host=localhost:3307;dbname=we_love_food;charset=utf8',
+    'mysql:host=localhost:3307;dbname=we_love_food_work;charset=utf8',
     'root',
     'root'
 );
